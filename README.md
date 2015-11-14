@@ -10,7 +10,7 @@ First install the constructor with `npm install js-bin-constructor`
 
 The only thing returned by js-bin-constructor is a function, with the syntax output = construct(object)
 
-###Example
+### Example
 
 `construct = require('js-bin-constructor');
 Type = require('js-binary').Type;
