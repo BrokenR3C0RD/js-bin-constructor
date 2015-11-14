@@ -13,6 +13,10 @@ module.exports = function(object){
 		if(typeof(temp)==="object"){
 			//Run it through this function to get the types, and then set that as the output
 			output[level]=module.exports(temp)
+			//Check if it's a buffer by looking for toJSON
+			if(typeof(output[level].toJSON)==="string"){
+				output[level] = "Buffer"
+			}
 		} else {
 			//Just set the output as the type
 			output[level]=typeof(temp)
