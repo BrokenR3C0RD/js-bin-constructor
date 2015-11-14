@@ -1,0 +1,28 @@
+{
+  "name": "jsbin-type-constructor",
+  "version": "1.0.0",
+  "description": "Constructs a Type object for js-binary, with no hassle",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadowC-X-11/js-bin-constructor.git"
+  },
+  "keywords": [
+    "type",
+    "constructor",
+    "js-binary",
+    "shadowcx11"
+  ],
+  "author": "ShadowCX11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShadowC-X-11/js-bin-constructor/issues"
+  },
+  "homepage": "https://github.com/ShadowC-X-11/js-bin-constructor#readme",
+  "dependencies": {
+    "js-binary": "^1.1.0"
+  }
+}
