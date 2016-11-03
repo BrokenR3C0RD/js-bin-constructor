@@ -12,7 +12,8 @@ The only thing returned by js-bin-constructor is a function, with the syntax out
 
 ### Example
 
-`construct = require('js-bin-constructor');
+```js
+construct = require('js-bin-constructor');
 Type = require('js-binary').Type;
 fruitshop = {
 	"bought":10,
@@ -21,7 +22,8 @@ fruitshop = {
 	"debt":-10,
 };
 type = new Type(construct(fruitshop));
-bin = type.encode(fruitshop);`
+bin = type.encode(fruitshop);
+```
 
 
 
